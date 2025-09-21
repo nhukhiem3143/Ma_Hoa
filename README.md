@@ -12,7 +12,7 @@ Trong đó:
 + C: ký tự bản mã (ciphertext)
 +	k: khóa (số bước dịch chuyển).
 Ví dụ: Với k=3, "HELLO" → "KHOOR".
-<img width="1837" height="842" alt="Screenshot 2025-09-21 220727" src="https://github.com/user-attachments/assets/aaf39df4-3ca7-4a84-9b9c-cd424e616577" />  
+<img width="1857" height="999" alt="Screenshot 2025-09-21 225510" src="https://github.com/user-attachments/assets/549bd228-1876-4664-aacf-7f348578e089" />
 
 ## 2. Mã hoá Affine  
 Ý tưởng: Là sự kết hợp phép nhân tuyến tính và phép cộng trong modulo 26.  
@@ -22,7 +22,9 @@ o	Giải mã: P=a−1⋅(C−b)mod  
 Trong đó:
 o	a,ba, ba,b là khóa. Điều kiện: gcd(a, 26) = 1 (để tồn tại nghịch đảo).
 o	a−1a^{-1}a−1: nghịch đảo modular của a.
-•	Ví dụ: Với a=5, b=8: "AFFINE" → "IHHWVC".
+•	Ví dụ: Với a=5, b=8: "AFFINE" → "IHHWVC".  
+<img width="1848" height="948" alt="Screenshot 2025-09-21 225117" src="https://github.com/user-attachments/assets/e8349eb9-0777-48f8-8466-a8a8e66db0c8" />
+
 
 ## 3. Mã hoá hoán vị
 Ý tưởng: Chia bản rõ thành các khối ký tự, sau đó hoán đổi vị trí theo một hoán vị cố định.  
@@ -31,6 +33,8 @@ o	Chọn kích thước khối k.
 o	Định nghĩa một hoán vị perm (ví dụ [2,0,3,1]).
 o	Mỗi khối ký tự được sắp xếp lại theo thứ tự mới. Nếu thiếu ký tự, thêm padding (ví dụ X).
 •	Ví dụ: Với khối 4 ký tự, "HELLO" → "LHEXO".  
+<img width="1859" height="939" alt="Screenshot 2025-09-21 225241" src="https://github.com/user-attachments/assets/c574e7e2-5b22-4e75-b05f-2ca0f8714a73" />
+
 
 ## 4. Mã hoá Vigenere  
 •	Ý tưởng: Dùng một chuỗi khóa (key) lặp lại để dịch từng ký tự trong bản rõ theo giá trị chữ cái của ký.
@@ -40,6 +44,8 @@ o	Giải mã: Pi=(Ci−Ki)mod  26
 Trong đó:  
 o	KiK_iKi: ký tự khóa, ánh xạ thành số 0–25.
 •	Ví dụ: Khóa "LEMON", bản rõ "ATTACKATDAWN" → "LXFOPVEFRNHR".  
+<img width="1858" height="1020" alt="Screenshot 2025-09-21 225412" src="https://github.com/user-attachments/assets/62613ccd-5e71-4dde-a374-a62b9aaca14b" />
+
 
 ## 5. Mã hoá Playfair    
 Ý tưởng: Mã hóa theo cặp ký tự (digraph) dựa trên ma trận 5×5 sinh từ khóa.  
@@ -47,4 +53,7 @@ Quy tắc:
 1.	Tạo bảng 5×5 từ khóa (ghép I/J thành 1 ô).   
 2.	Chia bản rõ thành cặp ký tự, thêm "X" nếu trùng hoặc thiếu.  
 3.	Áp dụng quy tắc mã hóa:  
+<img width="1865" height="1012" alt="Screenshot 2025-09-21 225434" src="https://github.com/user-attachments/assets/1ebbda15-9e82-43ae-9ac6-f0707d43f321" />
+
+# The End
 
