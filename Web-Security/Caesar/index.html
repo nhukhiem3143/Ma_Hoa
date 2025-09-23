@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mã hóa Caesar</h1>
+        
+        <div class="main-content">
+            <!-- Cột trái: Phần nhập liệu -->
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="text">Nhập văn bản cần mã hóa (chỉ chữ cái A-Z):</label>
+                    <input type="text" id="text" maxlength="50">
+                </div>
+                
+                <div class="input-group">
+                    <label for="k">Nhập khóa K (dịch chuyển):</label>
+                    <input type="number" id="k" min="0" max="25">
+                </div>
+                <button onclick="mahoa()">Mã hóa</button>
+                <button onclick="giaima()">Giải mã</button>
+            </div>
+            
+            <!-- Cột phải: Các bước mã hóa -->
+            <div class="steps-section">
+                <div class="steps" id="steps" style="display: none;">
+                    <h3>Các bước (chi tiết):</h3>
+                    <div id="step1" class="step"></div>
+                    <div id="step2" class="step"></div>
+                    <div id="step3" class="step"></div>
+                    <div id="result" class="result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
