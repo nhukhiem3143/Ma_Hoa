@@ -1,4 +1,4 @@
-<img width="1448" height="431" alt="Screenshot 2025-09-23 143135" src="https://github.com/user-attachments/assets/ccc6df88-9976-4760-967c-2ae18f45369e" /># Nguyễn Như Khiêm - K225480106030
+# Nguyễn Như Khiêm - K225480106030
 # BÀI TẬP 1: TÌM HIỂU CÁC PHƯƠNG PHÁP MÃ HOÁ CỔ ĐIỂN 
 1. Caesar
 2. Affine
