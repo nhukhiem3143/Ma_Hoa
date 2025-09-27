@@ -1,4 +1,4 @@
-# Nguyễn Như Khiêm - K225480106030
+<img width="1448" height="431" alt="Screenshot 2025-09-23 143135" src="https://github.com/user-attachments/assets/ccc6df88-9976-4760-967c-2ae18f45369e" /># Nguyễn Như Khiêm - K225480106030
 # BÀI TẬP 1: TÌM HIỂU CÁC PHƯƠNG PHÁP MÃ HOÁ CỔ ĐIỂN 
 1. Caesar
 2. Affine
@@ -32,14 +32,19 @@
 **Cách phá mã (không cần khóa):**  
 + Brute-force: thử 26 giá trị k (rất rẻ).
 + Nếu biết ngôn ngữ: kiểm tra kết quả bằng dictionary / tần suất chữ (E, A, T …).
-+ Kỹ thuật tần suất: khớp tần suất ký tự trong bản mã với tần suất ngôn ngữ.  
-### Mã hoá  
++ Kỹ thuật tần suất: khớp tần suất ký tự trong bản mã với tần suất ngôn ngữ.
+
+## Dùng HTML,CSS,JS  
+### Mã hoá 
 
 <img width="1863" height="965" alt="Screenshot 2025-09-22 230551" src="https://github.com/user-attachments/assets/a3585525-eeea-4da7-9a8c-24cd87d0e966" />  
 
 ### Giải mã  
 
 <img width="1861" height="945" alt="Screenshot 2025-09-22 230602" src="https://github.com/user-attachments/assets/cd049f01-23bd-4057-8fcd-cad895fffa91" />  
+
+## Dùng C++  
+<img width="1448" height="431" alt="Screenshot 2025-09-23 143135" src="https://github.com/user-attachments/assets/48c4658e-a574-4cfc-9afc-6ee6c2b8ba54" />
 
 ## 2. Mã hoá Affine  
 **Tên gọi:** Mã Affine  
@@ -62,6 +67,7 @@ a^(−1) là nghịch đảo modulo 26 (số x sao cho a.x ≡ 1 mod 26 )
 + Brute-force trên 312 khả năng — hoàn toàn khả thi.
 + Kết hợp tần suất chữ để chọn ra cặp a,b đúng nhất.  
 
+## Dùng HTML,CSS,JS  
 ### Mã hoá  
 
 <img width="1828" height="960" alt="Screenshot 2025-09-22 230719" src="https://github.com/user-attachments/assets/b46376fa-f9f2-4f97-ad87-7b30914541b3" />  
@@ -69,6 +75,9 @@ a^(−1) là nghịch đảo modulo 26 (số x sao cho a.x ≡ 1 mod 26 )
 ### Giải mã  
 
 <img width="1828" height="961" alt="Screenshot 2025-09-22 230734" src="https://github.com/user-attachments/assets/7d92784b-2d0d-415d-ae34-ecc3a0e039a0" />  
+
+## Dùng C++  
+<img width="1371" height="388" alt="Screenshot 2025-09-23 143308" src="https://github.com/user-attachments/assets/e9807163-e1da-40a9-89e5-54d06810a381" />  
 
 ## 3. Mã hoá hoán vị
 **Tên gọi :** Mã hoán vị (block permutation cipher / columnar-like simple) 
@@ -87,6 +96,7 @@ a^(−1) là nghịch đảo modulo 26 (số x sao cho a.x ≡ 1 mod 26 )
 + Nếu biết cấu trúc ngôn ngữ, kiểm tra từng candidate bằng thống kê / dictionary.
 + Nếu attacker có bản rõ một phần (known-plaintext) thì dễ tìm hoán vị.
 
+## Dùng HTML,CSS,JS  
 ### Mã hoá  
 
 <img width="1863" height="955" alt="Screenshot 2025-09-22 230857" src="https://github.com/user-attachments/assets/ae3ad68d-6849-48c2-a0a6-842344e896d9" />  
@@ -94,6 +104,10 @@ a^(−1) là nghịch đảo modulo 26 (số x sao cho a.x ≡ 1 mod 26 )
 ### Giải mã  
 
 <img width="1863" height="949" alt="Screenshot 2025-09-22 230907" src="https://github.com/user-attachments/assets/cb79ae39-ba9e-400a-8a55-1769e121e27b" />  
+
+## Dùng C++  
+<img width="1456" height="422" alt="Screenshot 2025-09-23 143153" src="https://github.com/user-attachments/assets/3d5daa04-6eeb-435d-b237-306592d8dd9c" />  
+
 
 ## 4. Mã hoá Vigenère  
 **Tên gọi :** Mã Vigenère (polyalphabetic substitution cipher)  
@@ -115,6 +129,7 @@ a^(−1) là nghịch đảo modulo 26 (số x sao cho a.x ≡ 1 mod 26 )
 + Friedman test (Index of Coincidence) để ước lượng độ dài khóa.
 + Sau khi biết độ dài L, tách ciphertext thành L chuỗi đơn ký tự, mỗi chuỗi có thể bị tấn công bằng frequency analysis (giống Caesar).  
 
+## Dùng HTML,CSS,JS  
 ### Mã hoá  
 
 <img width="1835" height="954" alt="Screenshot 2025-09-22 233143" src="https://github.com/user-attachments/assets/1a326dbc-acc3-4a88-aa31-554384dc6875" />  
@@ -122,6 +137,10 @@ a^(−1) là nghịch đảo modulo 26 (số x sao cho a.x ≡ 1 mod 26 )
 ### Giải mã  
 
 <img width="1857" height="960" alt="Screenshot 2025-09-22 233211" src="https://github.com/user-attachments/assets/ae1574b8-3ee3-4692-adbc-808218a807bc" />  
+
+## Dùng C++   
+<img width="1310" height="307" alt="Screenshot 2025-09-23 143650" src="https://github.com/user-attachments/assets/04207e54-d5fb-4dcb-b881-efad73245087" />  
+
 
 ## 5. Mã hoá Playfair    
 **Tên gọi:** Mã Playfair (digraph substitution cipher)  
@@ -144,6 +163,7 @@ a^(−1) là nghịch đảo modulo 26 (số x sao cho a.x ≡ 1 mod 26 )
 + Tấn công phân tích digraph frequency (phân tích tần suất cặp ký tự).
 + Known-plaintext: có thể phục hồi bảng khóa bằng phân tích các cặp.  
 
+## Dùng HTML,CSS,JS  
 ### Mã hoá  
 
 <img width="1868" height="961" alt="Screenshot 2025-09-22 230951" src="https://github.com/user-attachments/assets/a761ce43-6cc0-46f0-9552-40f92f24df18" />  
@@ -151,5 +171,8 @@ a^(−1) là nghịch đảo modulo 26 (số x sao cho a.x ≡ 1 mod 26 )
 ### Giải mã  
 
 <img width="1836" height="946" alt="Screenshot 2025-09-22 231003" src="https://github.com/user-attachments/assets/859a47ce-2225-4717-945f-e369fe3422bb" />  
+
+## Dùng C++  
+<img width="1284" height="311" alt="Screenshot 2025-09-23 143802" src="https://github.com/user-attachments/assets/57c2f20a-c3f3-4fdd-9b82-4eb6b71defda" />  
 
 # The End
